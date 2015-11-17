@@ -1,0 +1,10 @@
+{
+    "cordova-plugin-rfduino": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-rfduino"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

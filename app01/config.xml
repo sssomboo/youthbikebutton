@@ -8,6 +8,11 @@
         PhoneGap Team
     </author>
     <content src="index.html" />
+
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="data:*" />
+
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
@@ -83,19 +88,4 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-        <!-- Allow images, xhrs, etc. to google.com -->
-    <access origin="http://google.com" />
-    <access origin="https://google.com" />
-
-    <!-- Access to the subdomain maps.google.com -->
-    <access origin="http://maps.google.com" />
-
-    <!-- Access to all the subdomains on google.com -->
-    <access origin="http://*.google.com" />
-
-    <!-- Enable requests to content: URLs -->
-    <access origin="content:///*" />
-
-    <!-- Don't block any requests -->
-    <access origin="*" />
 </widget>
